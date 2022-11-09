@@ -1,0 +1,313 @@
+:root {
+  --branding-color: #6c63ff;
+  --secondary-color: #f9f7fe;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--default-font-family);
+}
+
+.container .content {
+  padding-top: 100px;
+}
+
+@media (max-width: 992px) {
+  .container .content {
+    margin: 0 auto;
+  }
+  #my-photo {
+    max-width: 60%;
+    margin: 0 auto;
+    /* margin-top: 50px; */
+  }
+}
+.content-section {
+  margin-top: 80px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+h5 {
+  font-size: 48px;
+}
+
+p {
+  font-family: var(--default-font-family);
+  font-size: 20px;
+  line-height: 30px;
+}
+
+nav {
+  padding: 15px 0px;
+}
+
+nav ul {
+  padding: 0px;
+  margin: 0px;
+}
+.navbar-brand {
+  font-family: var(--heading-font-family);
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 35px;
+  margin-left: 15px;
+  font-size: 17px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+.nav-link:hover {
+  font-family: var(--default-font-family);
+  color: var(--branding-color);
+}
+
+.header {
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 150px 5px;
+}
+
+.header h2 {
+  font-size: 36px;
+  font-family: var(--default-font-family);
+  color: #272142;
+  margin: 0px;
+}
+
+.header h3 {
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  line-height: 2;
+}
+
+.content .about-info {
+  font-size: 17px;
+}
+.content .work-info {
+  font-size: 22px;
+}
+.content {
+  padding: 60px 5px;
+}
+
+.content-section h1 {
+  max-width: 1140px;
+  font-size: 64px;
+  line-height: 80px;
+}
+@media (max-width: 990px) {
+  .content-section h1 {
+    font-size: 48px;
+    margin-bottom: 30px !important;
+  }
+}
+
+.content-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.content-section h3 {
+  font-size: var(--default-font-family);
+  font-size: 28px;
+  line-height: 1.5;
+  margin: 30px 0;
+}
+
+.content-section p {
+  font-size: 17px;
+}
+.content-section .mail {
+  text-decoration: none;
+  font-size: 22px;
+  margin-top: 130px;
+  color: var(--branding-color);
+}
+.img-content {
+  padding: 60px auto;
+}
+
+.row img {
+  border-radius: 20px;
+}
+
+.btn-branding {
+  background-color: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 25px;
+}
+@media (max-width: 900px) {
+  .btn-branding {
+    margin-bottom: 50px;
+  }
+}
+.btn-branding:hover {
+  border: 1px solid var(--branding-color) !important;
+  background-color: transparent !important;
+  color: var(--branding-color) !important;
+}
+
+.project-description {
+  padding: 100px 60px;
+}
+
+.title-project {
+  margin-bottom: 40px;
+}
+
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4pxs;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 25px;
+}
+
+.btn-branding-outline:hover {
+  background-color: var(--branding-color) !important;
+  color: white !important;
+}
+
+#my-photo {
+  border-radius: 20px;
+}
+
+footer {
+  margin: 60px 0px 30px 0px;
+}
+
+@media (max-width: 767px) {
+  footer {
+    margin: 0;
+  }
+}
+footer p {
+  margin: 0px 0px 0px 15px;
+}
+footer .invite {
+  color: var(--branding-color);
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 100px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+#info a {
+  color: var(--branding-color) !important;
+}
+#info a:hover {
+  text-decoration: none;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  footer .email-link {
+    margin-top: 60px;
+  }
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+.mail-info {
+  margin-bottom: 70px;
+}
+
+.social-links {
+  margin: 30px 20px;
+  color: var(--branding-color);
+  font-size: 18px;
+  background: var(--secondary-color);
+  border-radius: 50%;
+  padding: 10px 14px;
+  transition: all 100ms ease-in-out;
+}
+
+.social-links:hover {
+  color: white;
+  background: var(--branding-color);
+}
+
+#info {
+  font-size: 15px;
+}
+
+@media (max-width: 991px) {
+  .project-description {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 1.4;
+  }
+
+  h2 {
+    font-size: 45px;
+  }
+
+  .title-project {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .header {
+    padding: 80px 5px;
+  }
+
+  .project-description {
+    padding: 0px;
+    text-align: center;
+  }
+
+  .content {
+    text-align: center;
+    padding: 0px;
+  }
+
+  .img-content {
+    padding: 0px;
+  }
+
+  #info {
+    font-size: 12px;
+  }
+}

@@ -2,16 +2,121 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Anastasiia Molodova is a front-end engineer based in Ukraine" />
+  <title>My Work</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles/portfolio.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/c3dc3405b9.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <h1>My work</h1>
-    <a href="index.html">Homepage</a>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="/">Anastasiia Molodova</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/">
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/work.html">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html">
+                Contact me
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
+    <div class="content-section container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="content">
+            <h1 class="mb-5">Take a look at what I've been working on!</h1>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <img src="/images/yogurt.png" alt="Yogurt" class="img-fluid mb-2" />
+          <h3 class="text-center">Yogurt project</h3>
+          <p class="text-center text-muted">Built with HTML and CSS</p>
+        </div>
+
+        <div class="col-md-6 mb-4">
+          <img src="/images/weather.png" alt="Weather" class="img-fluid mb-2" />
+          <h3 class="text-center">Weather project</h3>
+          <p class="text-center text-muted">
+            Built with HTML,CSS and JavaScript
+          </p>
+        </div>
+        <div class="col-md-6 mb-4">
+          <img src="/images/dictionary.png" alt="Dictionary" class="img-fluid" />
+          <h3 class="text-center">Dictionary App</h3>
+          <p class="text-center text-muted">Built with HTML,CSS and React</p>
+        </div>
+        <div class="col-md-6 mb-4">
+          <img src="/images/yogurt.png" alt="Translation" class="img-fluid" />
+          <h3 class="text-center">Yogurt project</h3>
+          <p class="text-center text-muted">Built with HTML,CSS and React</p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="contact-box d-flex justify-content-between d-none d-md-flex">
+        <div>
+          <h4>Work Inquiry</h4>
+          <p class="invite">Let's work together</p>
+        </div>
+        <div>
+          <a href="/contact.html" class="btn btn-branding mt-2">Contact me</a>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <a href="mailto:anastasiamolodova1@gmail.com" class="email-link">anastasiamolodova1@gmail.com</a>
+      </div>
+      <div class="d-flex justify-content-center">
+        <a href="https://www.facebook.com/profile.php?id=100009866761933" targer="_blank" rel="noopener"
+          class="social-links"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/stacya_m/" targer="_blank" rel="noopener" class="social-links"><i
+            class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/anastasiia-molodova-%F0%9F%87%BA%F0%9F%87%A6-458706234/" target="_blank"
+          rel="noopener" class="social-links"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </footer>
+    <p class="text-center" id="info">
+      This project was coded Anastasiia Molodova and it is
+      <a href="https://github.com/stacyam/portfolio" target="_blank" rel="noopener"
+        title="GitHub Profile">open-sourced</a>
+    </p>
+  </div>
 </body>
 
 </html>
