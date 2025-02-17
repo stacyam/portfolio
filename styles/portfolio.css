@@ -164,6 +164,11 @@ nav a {
   line-height: 27px;
   padding: 15px 25px;
 }
+
+.btn_wrapper {
+  text-align: center;
+}
+
 @media (max-width: 900px) {
   .btn-branding {
     margin-bottom: 50px;
@@ -230,7 +235,7 @@ footer .contact-box {
 }
 
 .img_contact img {
-  max-width: 300px;
+  max-width: 200px;
 }
 
 #info a {
